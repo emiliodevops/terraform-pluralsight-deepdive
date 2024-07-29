@@ -104,8 +104,8 @@ module "virtual_machine" {
         main_ip_config = {
           name                          = "private_ipconfig"
           private_ip_subnet_resource_id = lookup(module.vnet.vnet_subnets_name_id, "subnet1")
-          create_public_ip_address = true
-          public_ip_address_name = "vm-terraform-publicip1"
+          create_public_ip_address      = true
+          public_ip_address_name        = "vm-terraform-publicip1"
         }
 
       }
