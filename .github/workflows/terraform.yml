@@ -1,4 +1,5 @@
-name: 'Terraform'
+name: "Terraform"
+on: [push, pull_request]
 
 env:
   TF_LOG: INFO
