@@ -2,6 +2,7 @@ locals {
   common_tags = {
     purpose                  = "terraform_plurasight_deep_dive"
     terraform_state_location = "local"
+    env                      = terraform.workspace
   }
 }
 
