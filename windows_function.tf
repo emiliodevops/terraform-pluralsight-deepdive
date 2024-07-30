@@ -16,7 +16,7 @@ resource "azurerm_windows_function_app" "WindowsFunction1" {
   functions_extension_version              = "~4"
   https_only                               = false
   location                                 = "eastus"
-  name                                     = "OrderFunctioneaa1cd1b77"
+  name                                     = "OrderFunctioneaa1cd1b77-NEW"
   public_network_access_enabled            = true
   resource_group_name                      = "rg-apim-training"
   service_plan_id                          = "/subscriptions/15daa60f-4479-482d-8728-a1d99f5ee7ed/resourceGroups/rg-apim-training/providers/Microsoft.Web/serverFarms/EastUSPlan"
