@@ -45,8 +45,8 @@ module "vnet" {
   resource_group_name = azurerm_resource_group.rg_main.name
   use_for_each        = var.use_for_each
   vnet_location       = var.location
-  address_space       = ["10.77.0.0/16"]
-  subnet_prefixes     = ["10.77.1.0/24", "10.77.2.0/24", "10.77.3.0/24"]
+  address_space       = ["10.78.0.0/16"]
+  subnet_prefixes     = ["10.78.1.0/24", "10.78.2.0/24", "10.78.3.0/24"]
   subnet_names        = ["subnet1", "subnet2", "subnet3"]
 
   nsg_ids = {
