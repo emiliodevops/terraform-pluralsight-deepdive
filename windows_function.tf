@@ -2,7 +2,7 @@
 resource "azurerm_windows_function_app" "WindowsFunction1" {
   app_settings = {
     FUNCTIONS_INPROC_NET8_ENABLED = "1"
-    EMILIO_DATA                   = "ApplicationData"
+    EMILIO_DATA                   = "ApplicationDocuments"
   }
   builtin_logging_enabled                  = false
   client_certificate_enabled               = false
